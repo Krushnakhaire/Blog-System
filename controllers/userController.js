@@ -1,4 +1,4 @@
-const userModel = require("../models/userModel");  // Check the correct path
+const userModel = require("../models/userModel");  
 const bcrypt=require('bcrypt')
 
 exports.registerController=async (req, res)=>{

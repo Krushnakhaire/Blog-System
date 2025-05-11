@@ -18,7 +18,7 @@ const blogSchema = new mongoose.Schema({
         ref: "User",
       },
 }, {
-    timestamps: true, // ✅ Correct spelling here
+    timestamps: true, 
 });
 
 const blogModel = mongoose.model("Blog", blogSchema);
